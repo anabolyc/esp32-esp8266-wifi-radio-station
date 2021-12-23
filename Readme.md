@@ -1,4 +1,4 @@
-## ESP32 and ESP8266 fake windows xp port
+## ESP32 and ESP8266 Wifi based radio station
 
 This is a Wifi Radio project made by [VolosR](https://github.com/VolosR/TTGOInternetStation), based on [Espressif mp3 library](https://github.com/espressif/ESP8266_MP3_DECODER) that loads and play internet audio streams, like Radio stations.
 
