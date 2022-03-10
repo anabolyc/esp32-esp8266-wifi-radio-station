@@ -206,7 +206,7 @@ void setup()
   pinMode(PIN_BTN3, INPUT);
 #endif
 
-#ifdef ESP32
+#if defined(ESP32) && defined(TFT_BL)
   ledcSetup(pwmLedChannelTFT, pwmFreq, pwmResolution);
   ledcAttachPin(TFT_BL, pwmLedChannelTFT);
   ledcWrite(pwmLedChannelTFT, backlight[b]);
